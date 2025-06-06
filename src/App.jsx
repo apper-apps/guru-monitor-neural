@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import Home from './pages/Home'
+import HomePage from '@/components/pages/HomePage'
 import NotFound from './pages/NotFound'
 import ApperIcon from './components/ApperIcon'
 import 'react-toastify/dist/ReactToastify.css'
@@ -61,9 +61,9 @@ function App() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.3 }}
+transition={{ duration: 0.3 }}
                 >
-                  <Home />
+                  <HomePage />
                 </motion.div>
               } 
             />
