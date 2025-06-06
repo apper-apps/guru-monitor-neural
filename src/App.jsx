@@ -2,11 +2,11 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import HomePage from '@/components/pages/HomePage'
+import HomePage from './components/pages/HomePage'
+import PaymentTrackerPage from './components/pages/PaymentTrackerPage'
 import NotFound from './pages/NotFound'
 import ApperIcon from './components/ApperIcon'
 import 'react-toastify/dist/ReactToastify.css'
-
 function App() {
   const [darkMode, setDarkMode] = useState(false)
   const location = useLocation()
