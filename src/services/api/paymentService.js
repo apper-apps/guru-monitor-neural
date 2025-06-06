@@ -3,7 +3,8 @@ import { isBefore, parseISO, addMonths, format } from 'date-fns'
 
 class PaymentService {
   constructor() {
-    this.payments = [...paymentData]
+    // Initialize with payment history from JSON, fallback to empty array if not found
+    this.payments = paymentData.paymentHistory ? [...paymentData.paymentHistory] : []
   }
 
   async delay() {
