@@ -1,152 +1,373 @@
-[
-  {
-    "id": 1,
-    "loanId": 1,
-    "month": 1,
-    "emiAmount": 25983,
-    "principal": 8316,
-    "interest": 17667,
-    "balance": 2491684,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 2,
-    "loanId": 1,
-    "month": 2,
-    "emiAmount": 25983,
-    "principal": 8375,
-    "interest": 17608,
-    "balance": 2483309,
-    "paymentDate": "2024-02-01"
-  },
-  {
-    "id": 3,
-    "loanId": 1,
-    "month": 3,
-    "emiAmount": 25983,
-    "principal": 8434,
-    "interest": 17549,
-    "balance": 2474875,
-    "paymentDate": "2024-03-01"
-  },
-  {
-    "id": 4,
-    "loanId": 2,
-    "month": 1,
-    "emiAmount": 28456,
-    "principal": 2956,
-    "interest": 25500,
-    "balance": 3497044,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 5,
-    "loanId": 2,
-    "month": 2,
-    "emiAmount": 28456,
-    "principal": 2977,
-    "interest": 25479,
-    "balance": 3494067,
-    "paymentDate": "2024-02-01"
-  },
-  {
-    "id": 6,
-    "loanId": 3,
-    "month": 1,
-    "emiAmount": 14876,
-    "principal": 4501,
-    "interest": 10375,
-    "balance": 1495499,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 7,
-    "loanId": 4,
-    "month": 1,
-    "emiAmount": 12456,
-    "principal": 6123,
-    "interest": 6333,
-    "balance": 793877,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 8,
-    "loanId": 4,
-    "month": 2,
-    "emiAmount": 12456,
-    "principal": 6171,
-    "interest": 6285,
-    "balance": 787706,
-    "paymentDate": "2024-02-01"
-  },
-  {
-    "id": 9,
-    "loanId": 5,
-    "month": 1,
-    "emiAmount": 16789,
-    "principal": 7539,
-    "interest": 9250,
-    "balance": 1192461,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 10,
-    "loanId": 6,
-    "month": 1,
-    "emiAmount": 12748,
-    "principal": 7748,
-    "interest": 5000,
-    "balance": 592252,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 11,
-    "loanId": 7,
-    "month": 1,
-    "emiAmount": 11122,
-    "principal": 5955,
-    "interest": 5167,
-    "balance": 494045,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 12,
-    "loanId": 8,
-    "month": 1,
-    "emiAmount": 8067,
-    "principal": 4817,
-    "interest": 3250,
-    "balance": 295183,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 13,
-    "loanId": 9,
-    "month": 1,
-    "emiAmount": 13456,
-    "principal": 6081,
-    "interest": 7375,
-    "balance": 743919,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 14,
-    "loanId": 10,
-    "month": 1,
-    "emiAmount": 29378,
-    "principal": 2711,
-    "interest": 26667,
-    "balance": 3997289,
-    "paymentDate": "2024-01-01"
-  },
-  {
-    "id": 15,
-    "loanId": 11,
-    "month": 1,
-    "emiAmount": 21234,
-    "principal": 10359,
-    "interest": 10875,
-    "balance": 1489641,
-    "paymentDate": "2024-01-01"
-  }
-]
+{
+  "loans": [
+    {
+      "id": "loan1",
+      "name": "Home Loan - SBI",
+      "type": "home",
+      "totalAmount": 5000000,
+      "monthlyEMI": 47894,
+      "interestRate": 8.5,
+      "tenure": 240,
+      "startDate": "2023-01-01"
+    },
+    {
+      "id": "loan2", 
+      "name": "Car Loan - HDFC",
+      "type": "car",
+      "totalAmount": 800000,
+      "monthlyEMI": 18654,
+      "interestRate": 9.2,
+      "tenure": 60,
+      "startDate": "2023-06-01"
+    },
+    {
+      "id": "loan3",
+      "name": "Personal Loan - ICICI",
+      "type": "personal", 
+      "totalAmount": 300000,
+      "monthlyEMI": 8764,
+      "interestRate": 12.5,
+      "tenure": 48,
+      "startDate": "2023-03-15"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "amount": 25000,
+      "date": "2024-01-15",
+      "type": "EMI",
+      "status": "completed",
+      "method": "bank_transfer",
+      "reference": "TXN123456789"
+    },
+    {
+      "id": "2",
+      "amount": 50000,
+      "date": "2024-02-15",
+      "type": "prepayment",
+      "status": "completed",
+      "method": "cheque",
+      "reference": "CHQ987654321"
+    },
+    {
+      "id": "3",
+      "amount": 25000,
+      "date": "2024-03-15",
+      "type": "EMI",
+      "status": "pending",
+      "method": "auto_debit",
+      "reference": "AUTO456789123"
+    }
+  ],
+  "paymentHistory": [
+    {
+      "id": "ph1",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 12756,
+      "interest": 35138,
+      "date": "2023-01-01",
+      "dueDate": "2023-01-01",
+      "status": "on-time",
+      "remainingBalance": 4987244
+    },
+    {
+      "id": "ph2",
+      "loanId": "loan1", 
+      "amount": 47894,
+      "principal": 12847,
+      "interest": 35047,
+      "date": "2023-02-01",
+      "dueDate": "2023-02-01",
+      "status": "on-time",
+      "remainingBalance": 4974397
+    },
+    {
+      "id": "ph3",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 12938,
+      "interest": 34956,
+      "date": "2023-03-01",
+      "dueDate": "2023-03-01", 
+      "status": "on-time",
+      "remainingBalance": 4961459
+    },
+    {
+      "id": "ph4",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13030,
+      "interest": 34864,
+      "date": "2023-04-03",
+      "dueDate": "2023-04-01",
+      "status": "late",
+      "remainingBalance": 4948429
+    },
+    {
+      "id": "ph5",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13122,
+      "interest": 34772,
+      "date": "2023-05-01",
+      "dueDate": "2023-05-01",
+      "status": "on-time",
+      "remainingBalance": 4935307
+    },
+    {
+      "id": "ph6",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13215,
+      "interest": 34679,
+      "date": "2023-06-01",
+      "dueDate": "2023-06-01",
+      "status": "on-time",
+      "remainingBalance": 4922092
+    },
+    {
+      "id": "ph7",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13309,
+      "interest": 34585,
+      "date": "2023-07-05",
+      "dueDate": "2023-07-01",
+      "status": "late",
+      "remainingBalance": 4908783
+    },
+    {
+      "id": "ph8",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13403,
+      "interest": 34491,
+      "date": "2023-08-01",
+      "dueDate": "2023-08-01",
+      "status": "on-time",
+      "remainingBalance": 4895380
+    },
+    {
+      "id": "ph9",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13498,
+      "interest": 34396,
+      "date": "2023-09-01",
+      "dueDate": "2023-09-01",
+      "status": "on-time",
+      "remainingBalance": 4881882
+    },
+    {
+      "id": "ph10",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13594,
+      "interest": 34300,
+      "date": "2023-10-01",
+      "dueDate": "2023-10-01",
+      "status": "on-time",
+      "remainingBalance": 4868288
+    },
+    {
+      "id": "ph11",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13691,
+      "interest": 34203,
+      "date": "2023-11-01",
+      "dueDate": "2023-11-01",
+      "status": "on-time",
+      "remainingBalance": 4854597
+    },
+    {
+      "id": "ph12",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13788,
+      "interest": 34106,
+      "date": "2023-12-01",
+      "dueDate": "2023-12-01",
+      "status": "on-time",
+      "remainingBalance": 4840809
+    },
+    {
+      "id": "ph13",
+      "loanId": "loan1",
+      "amount": 47894,
+      "principal": 13886,
+      "interest": 34008,
+      "date": "2024-01-01",
+      "dueDate": "2024-01-01",
+      "status": "on-time",
+      "remainingBalance": 4826923
+    },
+    {
+      "id": "ph14",
+      "loanId": "loan1",
+      "amount": 0,
+      "principal": 0,
+      "interest": 0,
+      "date": "2024-02-01",
+      "dueDate": "2024-02-01",
+      "status": "upcoming",
+      "remainingBalance": 4826923
+    },
+    {
+      "id": "ph15",
+      "loanId": "loan1",
+      "amount": 0,
+      "principal": 0,
+      "interest": 0,
+      "date": "2024-03-01",
+      "dueDate": "2024-03-01",
+      "status": "upcoming",
+      "remainingBalance": 4826923
+    },
+    {
+      "id": "c1",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8154,
+      "interest": 10500,
+      "date": "2023-06-01",
+      "dueDate": "2023-06-01",
+      "status": "on-time",
+      "remainingBalance": 791846
+    },
+    {
+      "id": "c2",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8217,
+      "interest": 10437,
+      "date": "2023-07-01",
+      "dueDate": "2023-07-01",
+      "status": "on-time",
+      "remainingBalance": 783629
+    },
+    {
+      "id": "c3",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8280,
+      "interest": 10374,
+      "date": "2023-08-01",
+      "dueDate": "2023-08-01",
+      "status": "on-time",
+      "remainingBalance": 775349
+    },
+    {
+      "id": "c4",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8344,
+      "interest": 10310,
+      "date": "2023-09-01",
+      "dueDate": "2023-09-01",
+      "status": "on-time",
+      "remainingBalance": 767005
+    },
+    {
+      "id": "c5",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8408,
+      "interest": 10246,
+      "date": "2023-10-01",
+      "dueDate": "2023-10-01",
+      "status": "on-time",
+      "remainingBalance": 758597
+    },
+    {
+      "id": "c6",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8473,
+      "interest": 10181,
+      "date": "2023-11-01",
+      "dueDate": "2023-11-01",
+      "status": "on-time",
+      "remainingBalance": 750124
+    },
+    {
+      "id": "c7",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8538,
+      "interest": 10116,
+      "date": "2023-12-01",
+      "dueDate": "2023-12-01",
+      "status": "on-time",
+      "remainingBalance": 741586
+    },
+    {
+      "id": "c8",
+      "loanId": "loan2",
+      "amount": 18654,
+      "principal": 8604,
+      "interest": 10050,
+      "date": "2024-01-01",
+      "dueDate": "2024-01-01",
+      "status": "on-time",
+      "remainingBalance": 732982
+    },
+    {
+      "id": "p1",
+      "loanId": "loan3",
+      "amount": 8764,
+      "principal": 5639,
+      "interest": 3125,
+      "date": "2023-03-15",
+      "dueDate": "2023-03-15",
+      "status": "on-time",
+      "remainingBalance": 294361
+    },
+    {
+      "id": "p2",
+      "loanId": "loan3",
+      "amount": 8764,
+      "principal": 5698,
+      "interest": 3066,
+      "date": "2023-04-15",
+      "dueDate": "2023-04-15",
+      "status": "on-time",
+      "remainingBalance": 288663
+    },
+    {
+      "id": "p3",
+      "loanId": "loan3",
+      "amount": 8764,
+      "principal": 5757,
+      "interest": 3007,
+      "date": "2023-05-15",
+      "dueDate": "2023-05-15",
+      "status": "on-time",
+      "remainingBalance": 282906
+    },
+    {
+      "id": "p4",
+      "loanId": "loan3",
+      "amount": 8764,
+      "principal": 5817,
+      "interest": 2947,
+      "date": "2023-06-15",
+      "dueDate": "2023-06-15",
+      "status": "on-time",
+      "remainingBalance": 277089
+    },
+    {
+      "id": "p5",
+      "loanId": "loan3",
+      "amount": 0,
+      "principal": 0,
+      "interest": 0,
+      "date": "2023-07-20",
+      "dueDate": "2023-07-15",
+      "status": "overdue",
+"remainingBalance": 277089
+    }
+  ]
+}

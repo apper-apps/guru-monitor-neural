@@ -65,6 +65,19 @@ transition={{ duration: 0.3 }}
                 >
                   <HomePage />
                 </motion.div>
+} 
+            />
+            <Route 
+              path="/payment-tracker" 
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <PaymentTrackerPage />
+                </motion.div>
               } 
             />
             <Route 
