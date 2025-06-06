@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "loanId": 1,
+    "month": 1,
+    "emiAmount": 25983,
+    "principal": 8316,
+    "interest": 17667,
+    "balance": 2491684,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 2,
+    "loanId": 1,
+    "month": 2,
+    "emiAmount": 25983,
+    "principal": 8375,
+    "interest": 17608,
+    "balance": 2483309,
+    "paymentDate": "2024-02-01"
+  },
+  {
+    "id": 3,
+    "loanId": 1,
+    "month": 3,
+    "emiAmount": 25983,
+    "principal": 8434,
+    "interest": 17549,
+    "balance": 2474875,
+    "paymentDate": "2024-03-01"
+  },
+  {
+    "id": 4,
+    "loanId": 2,
+    "month": 1,
+    "emiAmount": 28456,
+    "principal": 2956,
+    "interest": 25500,
+    "balance": 3497044,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 5,
+    "loanId": 2,
+    "month": 2,
+    "emiAmount": 28456,
+    "principal": 2977,
+    "interest": 25479,
+    "balance": 3494067,
+    "paymentDate": "2024-02-01"
+  },
+  {
+    "id": 6,
+    "loanId": 3,
+    "month": 1,
+    "emiAmount": 14876,
+    "principal": 4501,
+    "interest": 10375,
+    "balance": 1495499,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 7,
+    "loanId": 4,
+    "month": 1,
+    "emiAmount": 12456,
+    "principal": 6123,
+    "interest": 6333,
+    "balance": 793877,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 8,
+    "loanId": 4,
+    "month": 2,
+    "emiAmount": 12456,
+    "principal": 6171,
+    "interest": 6285,
+    "balance": 787706,
+    "paymentDate": "2024-02-01"
+  },
+  {
+    "id": 9,
+    "loanId": 5,
+    "month": 1,
+    "emiAmount": 16789,
+    "principal": 7539,
+    "interest": 9250,
+    "balance": 1192461,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 10,
+    "loanId": 6,
+    "month": 1,
+    "emiAmount": 12748,
+    "principal": 7748,
+    "interest": 5000,
+    "balance": 592252,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 11,
+    "loanId": 7,
+    "month": 1,
+    "emiAmount": 11122,
+    "principal": 5955,
+    "interest": 5167,
+    "balance": 494045,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 12,
+    "loanId": 8,
+    "month": 1,
+    "emiAmount": 8067,
+    "principal": 4817,
+    "interest": 3250,
+    "balance": 295183,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 13,
+    "loanId": 9,
+    "month": 1,
+    "emiAmount": 13456,
+    "principal": 6081,
+    "interest": 7375,
+    "balance": 743919,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 14,
+    "loanId": 10,
+    "month": 1,
+    "emiAmount": 29378,
+    "principal": 2711,
+    "interest": 26667,
+    "balance": 3997289,
+    "paymentDate": "2024-01-01"
+  },
+  {
+    "id": 15,
+    "loanId": 11,
+    "month": 1,
+    "emiAmount": 21234,
+    "principal": 10359,
+    "interest": 10875,
+    "balance": 1489641,
+    "paymentDate": "2024-01-01"
+  }
+]

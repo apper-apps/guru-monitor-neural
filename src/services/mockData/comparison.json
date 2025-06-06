@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "loans": [
+      {
+        "id": 1,
+        "type": "home",
+        "principal": 2500000,
+        "interestRate": 8.5,
+        "tenure": 240,
+        "emi": 25983,
+        "totalInterest": 3735920,
+        "totalAmount": 6235920
+      },
+      {
+        "id": 2,
+        "type": "home",
+        "principal": 2500000,
+        "interestRate": 8.75,
+        "tenure": 240,
+        "emi": 26234,
+        "totalInterest": 3796160,
+        "totalAmount": 6296160
+      }
+    ],
+    "bestOption": "home",
+    "worstOption": "home",
+    "savingsAmount": 60240,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "loans": [
+      {
+        "id": 4,
+        "type": "car",
+        "principal": 800000,
+        "interestRate": 9.5,
+        "tenure": 84,
+        "emi": 12456,
+        "totalInterest": 246304,
+        "totalAmount": 1046304
+      },
+      {
+        "id": 5,
+        "type": "car",
+        "principal": 800000,
+        "interestRate": 9.25,
+        "tenure": 84,
+        "emi": 12234,
+        "totalInterest": 227656,
+        "totalAmount": 1027656
+      },
+      {
+        "id": 6,
+        "type": "car",
+        "principal": 800000,
+        "interestRate": 10.0,
+        "tenure": 84,
+        "emi": 12789,
+        "totalInterest": 274276,
+        "totalAmount": 1074276
+      }
+    ],
+    "bestOption": "car",
+    "worstOption": "car",
+    "savingsAmount": 46620,
+    "createdAt": "2024-01-16T14:45:00Z"
+  },
+  {
+    "id": 3,
+    "loans": [
+      {
+        "id": 7,
+        "type": "personal",
+        "principal": 500000,
+        "interestRate": 12.5,
+        "tenure": 60,
+        "emi": 11122,
+        "totalInterest": 167320,
+        "totalAmount": 667320
+      },
+      {
+        "id": 8,
+        "type": "personal",
+        "principal": 500000,
+        "interestRate": 13.0,
+        "tenure": 60,
+        "emi": 11345,
+        "totalInterest": 180700,
+        "totalAmount": 680700
+      }
+    ],
+    "bestOption": "personal",
+    "worstOption": "personal",
+    "savingsAmount": 13380,
+    "createdAt": "2024-01-17T09:20:00Z"
+  },
+  {
+    "id": 4,
+    "loans": [
+      {
+        "id": 1,
+        "type": "home",
+        "principal": 3000000,
+        "interestRate": 8.0,
+        "tenure": 300,
+        "emi": 25126,
+        "totalInterest": 4537800,
+        "totalAmount": 7537800
+      },
+      {
+        "id": 4,
+        "type": "car",
+        "principal": 1000000,
+        "interestRate": 9.0,
+        "tenure": 84,
+        "emi": 15234,
+        "totalInterest": 279656,
+        "totalAmount": 1279656
+      },
+      {
+        "id": 7,
+        "type": "personal",
+        "principal": 400000,
+        "interestRate": 12.0,
+        "tenure": 48,
+        "emi": 10567,
+        "totalInterest": 107216,
+        "totalAmount": 507216
+      }
+    ],
+    "bestOption": "personal",
+    "worstOption": "home",
+    "savingsAmount": 7030584,
+    "createdAt": "2024-01-18T16:10:00Z"
+  },
+  {
+    "id": 5,
+    "loans": [
+      {
+        "id": 10,
+        "type": "home",
+        "principal": 4000000,
+        "interestRate": 7.8,
+        "tenure": 360,
+        "emi": 28456,
+        "totalInterest": 6244160,
+        "totalAmount": 10244160
+      },
+      {
+        "id": 11,
+        "type": "home",
+        "principal": 4000000,
+        "interestRate": 8.2,
+        "tenure": 360,
+        "emi": 29876,
+        "totalInterest": 6755360,
+        "totalAmount": 10755360
+      }
+    ],
+    "bestOption": "home",
+    "worstOption": "home",
+    "savingsAmount": 511200,
+    "createdAt": "2024-01-19T11:35:00Z"
+  }
+]
